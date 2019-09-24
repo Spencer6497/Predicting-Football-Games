@@ -3,4 +3,4 @@ project(untitled C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(untitled cmake-build-debug/Project2.c)
+add_executable(untitled cmake-build-debug/Project2.c cmake-build-debug/proj2head.h cmake-build-debug/computation.h cmake-build-debug/fileIO.h)
