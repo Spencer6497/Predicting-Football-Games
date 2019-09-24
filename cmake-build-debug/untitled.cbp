@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Spencer/CLionProjects/untitled/main.c">
+		<Unit filename="C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/Project2.c">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="C:/Users/Spencer/CLionProjects/untitled/CMakeLists.txt">

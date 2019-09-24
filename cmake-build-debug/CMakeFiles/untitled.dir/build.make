@@ -58,33 +58,33 @@ include CMakeFiles\untitled.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\untitled.dir\flags.make
 
-CMakeFiles\untitled.dir\main.c.obj: CMakeFiles\untitled.dir\flags.make
-CMakeFiles\untitled.dir\main.c.obj: ..\main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled.dir/main.c.obj"
+CMakeFiles\untitled.dir\Project2.c.obj: CMakeFiles\untitled.dir\flags.make
+CMakeFiles\untitled.dir\Project2.c.obj: Project2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled.dir/Project2.c.obj"
 	C:\PROGRA~2\MICROS~1\2019\PROFES~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\untitled.dir\main.c.obj /FdCMakeFiles\untitled.dir\ /FS -c C:\Users\Spencer\CLionProjects\untitled\main.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\untitled.dir\Project2.c.obj /FdCMakeFiles\untitled.dir\ /FS -c C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\Project2.c
 <<
 
-CMakeFiles\untitled.dir\main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/main.c.i"
-	C:\PROGRA~2\MICROS~1\2019\PROFES~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x86\cl.exe > CMakeFiles\untitled.dir\main.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Spencer\CLionProjects\untitled\main.c
+CMakeFiles\untitled.dir\Project2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/Project2.c.i"
+	C:\PROGRA~2\MICROS~1\2019\PROFES~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x86\cl.exe > CMakeFiles\untitled.dir\Project2.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\Project2.c
 <<
 
-CMakeFiles\untitled.dir\main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/main.c.s"
+CMakeFiles\untitled.dir\Project2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/Project2.c.s"
 	C:\PROGRA~2\MICROS~1\2019\PROFES~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled.dir\main.c.s /c C:\Users\Spencer\CLionProjects\untitled\main.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled.dir\Project2.c.s /c C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\Project2.c
 <<
 
 # Object files for target untitled
 untitled_OBJECTS = \
-"CMakeFiles\untitled.dir\main.c.obj"
+"CMakeFiles\untitled.dir\Project2.c.obj"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
-untitled.exe: CMakeFiles\untitled.dir\main.c.obj
+untitled.exe: CMakeFiles\untitled.dir\Project2.c.obj
 untitled.exe: CMakeFiles\untitled.dir\build.make
 untitled.exe: CMakeFiles\untitled.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable untitled.exe"
