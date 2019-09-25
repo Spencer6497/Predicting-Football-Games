@@ -3,6 +3,10 @@
 
 CMakeFiles/untitled.dir/Project2.c.obj
  C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/Project2.c
- C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/computation.h
- C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/fileIO.h
+ C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/proj2head.h
+CMakeFiles/untitled.dir/computation.c.obj
+ C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/computation.c
+ C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/proj2head.h
+CMakeFiles/untitled.dir/fileIO.c.obj
+ C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/fileIO.c
  C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/proj2head.h

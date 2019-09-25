@@ -151,6 +151,60 @@ Project2.c.s:
 	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Project2.c.s
 .PHONY : Project2.c.s
 
+computation.obj: computation.c.obj
+
+.PHONY : computation.obj
+
+# target to build an object file
+computation.c.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\computation.c.obj
+.PHONY : computation.c.obj
+
+computation.i: computation.c.i
+
+.PHONY : computation.i
+
+# target to preprocess a source file
+computation.c.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\computation.c.i
+.PHONY : computation.c.i
+
+computation.s: computation.c.s
+
+.PHONY : computation.s
+
+# target to generate assembly for a file
+computation.c.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\computation.c.s
+.PHONY : computation.c.s
+
+fileIO.obj: fileIO.c.obj
+
+.PHONY : fileIO.obj
+
+# target to build an object file
+fileIO.c.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\fileIO.c.obj
+.PHONY : fileIO.c.obj
+
+fileIO.i: fileIO.c.i
+
+.PHONY : fileIO.i
+
+# target to preprocess a source file
+fileIO.c.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\fileIO.c.i
+.PHONY : fileIO.c.i
+
+fileIO.s: fileIO.c.s
+
+.PHONY : fileIO.s
+
+# target to generate assembly for a file
+fileIO.c.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\fileIO.c.s
+.PHONY : fileIO.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -163,6 +217,12 @@ help:
 	@echo ... Project2.obj
 	@echo ... Project2.i
 	@echo ... Project2.s
+	@echo ... computation.obj
+	@echo ... computation.i
+	@echo ... computation.s
+	@echo ... fileIO.obj
+	@echo ... fileIO.i
+	@echo ... fileIO.s
 .PHONY : help
 
 

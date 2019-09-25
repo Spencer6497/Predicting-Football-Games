@@ -77,17 +77,59 @@ CMakeFiles\untitled.dir\Project2.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled.dir\Project2.c.s /c C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\Project2.c
 <<
 
+CMakeFiles\untitled.dir\computation.c.obj: CMakeFiles\untitled.dir\flags.make
+CMakeFiles\untitled.dir\computation.c.obj: computation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled.dir/computation.c.obj"
+	C:\PROGRA~2\MICROS~1\2019\PROFES~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\untitled.dir\computation.c.obj /FdCMakeFiles\untitled.dir\ /FS -c C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\computation.c
+<<
+
+CMakeFiles\untitled.dir\computation.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/computation.c.i"
+	C:\PROGRA~2\MICROS~1\2019\PROFES~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x86\cl.exe > CMakeFiles\untitled.dir\computation.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\computation.c
+<<
+
+CMakeFiles\untitled.dir\computation.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/computation.c.s"
+	C:\PROGRA~2\MICROS~1\2019\PROFES~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled.dir\computation.c.s /c C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\computation.c
+<<
+
+CMakeFiles\untitled.dir\fileIO.c.obj: CMakeFiles\untitled.dir\flags.make
+CMakeFiles\untitled.dir\fileIO.c.obj: fileIO.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled.dir/fileIO.c.obj"
+	C:\PROGRA~2\MICROS~1\2019\PROFES~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\untitled.dir\fileIO.c.obj /FdCMakeFiles\untitled.dir\ /FS -c C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\fileIO.c
+<<
+
+CMakeFiles\untitled.dir\fileIO.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/fileIO.c.i"
+	C:\PROGRA~2\MICROS~1\2019\PROFES~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x86\cl.exe > CMakeFiles\untitled.dir\fileIO.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\fileIO.c
+<<
+
+CMakeFiles\untitled.dir\fileIO.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/fileIO.c.s"
+	C:\PROGRA~2\MICROS~1\2019\PROFES~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled.dir\fileIO.c.s /c C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\fileIO.c
+<<
+
 # Object files for target untitled
 untitled_OBJECTS = \
-"CMakeFiles\untitled.dir\Project2.c.obj"
+"CMakeFiles\untitled.dir\Project2.c.obj" \
+"CMakeFiles\untitled.dir\computation.c.obj" \
+"CMakeFiles\untitled.dir\fileIO.c.obj"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled.exe: CMakeFiles\untitled.dir\Project2.c.obj
+untitled.exe: CMakeFiles\untitled.dir\computation.c.obj
+untitled.exe: CMakeFiles\untitled.dir\fileIO.c.obj
 untitled.exe: CMakeFiles\untitled.dir\build.make
 untitled.exe: CMakeFiles\untitled.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable untitled.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable untitled.exe"
 	"C:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\untitled.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\PROFES~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\untitled.dir\objects1.rsp @<<
  /out:untitled.exe /implib:untitled.lib /pdb:C:\Users\Spencer\CLionProjects\untitled\cmake-build-debug\untitled.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

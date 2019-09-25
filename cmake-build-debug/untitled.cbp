@@ -87,10 +87,10 @@
 		<Unit filename="C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/Project2.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/computation.h">
+		<Unit filename="C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/computation.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/fileIO.h">
+		<Unit filename="C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/fileIO.c">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/proj2head.h">

@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled.dir/Project2.c.obj"
+  "CMakeFiles/untitled.dir/computation.c.obj"
+  "CMakeFiles/untitled.dir/fileIO.c.obj"
   "untitled.pdb"
   "untitled.exe"
   "untitled.exe.manifest"

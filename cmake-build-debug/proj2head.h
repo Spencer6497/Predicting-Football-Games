@@ -2,17 +2,17 @@
  * This header file includes all function prototypes, include statements for C libraries, and all constants.
  *
  * Spencer Peace
- * 9/24/19
+ * 9/25/19
  * Dr. Richard Fox
  * Project 2
  */
 
+// Avoid warnings
 #define _CRT_SECURE_NO_WARNINGS
 
-// Include necessary headers
-#include <stdio.h> //Include basic I/O functions to be used in fileIO.h
-#include "computation.h" // Include header file with computation functions
-#include "fileIO.h" // Include header file with fileIO functions
+// Include necessary c libraries
+#include <stdio.h> // Include basic I/O functions to be used in fileIO.h
+#include <math.h> // Include math functions for abs() function used in winning team prediction
 
 // Define constants to be used in predictor calculations
 #define OFFENSIVE_FACTOR 1.15
@@ -29,12 +29,19 @@
 
 // Function prototypes
 // Input function prototype
-//void getLine(FILE *, char *, int *, int *, int *, int *, int *, char *, int *, int *, int *, int *);
+void getLine(FILE *, char *, int *, int *, int *, int *, int *, char *, int *, int *, int *, int *);
 
+// Compute function prototype
+void computePredictors(int, int, int, int, int, int, int, int, int, double *, double *, double *, double *, double *);
 
-// I don't believe the following code is necessary, but CLion included it so I will keep it until I can verify my program works.
+// Score function prototype
+int computeScore(double, double, double, double, double);
 
-#ifndef UNTITLED_PROJ2HEAD_H
-#define UNTITLED_PROJ2HEAD_H
+// Output function prototype
+void output(char[], char[], int);
 
-#endif //UNTITLED_PROJ2HEAD_H
+// Update function prototype
+void update(int, int *, int *);
+
+// Summary function prototype
+void summary(int, int);
