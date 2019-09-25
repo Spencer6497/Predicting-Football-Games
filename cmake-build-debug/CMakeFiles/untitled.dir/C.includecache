@@ -7,6 +7,18 @@
 #IncludeRegexTransform: 
 
 C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/Project2.c
+proj2head.h
+C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/proj2head.h
+
+C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/computation.h
+
+C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/fileIO.h
+
+C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/proj2head.h
 stdio.h
 -
+computation.h
+C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/computation.h
+fileIO.h
+C:/Users/Spencer/CLionProjects/untitled/cmake-build-debug/fileIO.h
 
