@@ -3,12 +3,6 @@
    a text file, then it will compute the likelihood of a win or a loss for the home/away team and the score
    differential of said game, based on the input. Finally, it will output the predictions for each matchup and the total
    number of games predicted, as well as the percentage of home team victories predicted.
-
-   Spencer Peace
-   CSC 362-001
-   Dr. Richard Fox
-   9/25/19
-   Project 1
  */
 
 #include "proj2head.h" // Include custom header file per the project requirements
