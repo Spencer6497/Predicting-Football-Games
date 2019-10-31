@@ -1,11 +1,6 @@
 /*
  * This file contains all of the functions I need to input data from a text file, and output the results of
  * the game prediction.
- *
- * Spencer Peace
- * 9/25/19
- * Dr. Richard Fox
- * Project 2
  */
 
 #include "proj2head.h"
