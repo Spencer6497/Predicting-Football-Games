@@ -1,10 +1,5 @@
 /*
  * This header file includes all function prototypes, include statements for C libraries, and all constants.
- *
- * Spencer Peace
- * 9/25/19
- * Dr. Richard Fox
- * Project 2
  */
 
 // Avoid warnings
