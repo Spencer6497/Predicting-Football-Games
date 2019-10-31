@@ -1,11 +1,6 @@
 /*
  * This file contains all of the functions I need to compute the predictor values, compute the score, and update the
  * running total of games and home team wins.
- *
- * Spencer Peace
- * 9/25/19
- * Dr. Richard Fox
- * Project 2
  */
 
 #include "proj2head.h"
